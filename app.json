@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "vpool",
+    "slug": "vpool",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier":"com.google.android.maps.v2.API_KEY",
+      "config":{
+        "googleMapsApiKey":"AIzaSyADfMf3ozAjr7XtyuZ52WG5O8YoM9Akp-w"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+
+      "package":"com.google.android.maps.v2.API_KEY",
+      "config":{
+        "google":{
+          "apiKey":"AIzaSyADfMf3ozAjr7XtyuZ52WG5O8YoM9Akp-w"
+        },
+        "permissions":["ACCESS_COARSE_LOCATION","ACCESS_FINE_LOCATION","FOREGROUND_SERVICE"]
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
